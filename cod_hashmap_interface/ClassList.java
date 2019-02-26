@@ -17,4 +17,8 @@ public class ClassList implements InterfaceList {
         return miLista.get(indice);
     }
 
+    @Override
+    public int size() {
+        return miLista.size();
+    }
 }

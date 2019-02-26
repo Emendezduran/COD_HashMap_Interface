@@ -5,14 +5,20 @@
  */
 package cod_hashmap_interface;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author emendezduran
  */
 public interface InterfaceList {
+    
+    ArrayList<String> miLista = new ArrayList<>();
 
     public void putElement(String cadena);
 
     public String getElement(int indice);
+    
+    public int size();
 
 }
